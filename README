@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+
+Trbot3
+(c) 2008 Petr Nohejl
+
+Trbot3 je skript pro automatické ovládání jedné nejmenované online hry. Skript
+je určen pro běh na serveru.
+
+--------------------------------------------------------------------------------
+
+Instalace:
+
+Trbot3 je konzolová aplikace (spouští se v příkazovém řádku) a je napsána v
+jazyce Python 2.6. Pro její spuštění je třeba mít nainstalován interpret jazyka
+Python, který lze stáhnout na adrese: www.python.org. 
+
+--------------------------------------------------------------------------------

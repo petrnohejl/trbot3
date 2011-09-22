@@ -1,0 +1,26 @@
+;konfiguracni soubor pro Trbot3
+
+;uspani skriptu
+[SLEEP]
+SLEEP = 0					;trvale uspani skriptu (0/1)
+DAY = 50					;uspani skriptu ve dne (min)
+NIGHT = 50					;uspani skriptu v noci (min)
+LOGOUT = 1					;uspani skriptu pred odhlasenim (min)
+DIFF = 10					;vychylka (min)
+NIGHT_START = 1				;zacatek noci (cas v hod)
+NIGHT_END	= 8				;konec noci (cas v hod)
+
+;funkce skriptu
+[DO]
+FIELD = 1					;staveni poli
+BUILDING = 1				;staveni budov
+TRAINING = 1				;trenovani vojaku
+FARMING = 1					;farmareni
+TRADING = 1					;obchodovani
+WARNING = 1					;varovani pomoci sms na plne sklady a utok
+RESOURCES_DIFF = 100		;vychylka pro upozorneni na blizici se plne sklady
+
+;mail report
+[MAIL]
+EXCEPTION = 1				;odesilani upozorneni pri vyjimce (0/1)
+REPORT = 0					;odesilani upozorneni na farming, staveni pole (0/1)
